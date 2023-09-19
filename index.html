@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Cv</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d58f72a64c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h2 class="logo">Portfo<span>lio</span></h2>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contacts</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Alex Njenga</span><br>from Kenya</h1>
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Alex Njenga Kiarie is a young and enthusiastic student currently studying Computer Science at Riara University.
+                 He is passionate about technology and loves exploring new ways to use it to make people's lives easier.
+                In addition to his studies, Alex is also a part-time UI/UX Designer, using his creative skills to design intuitive and engaging user interfaces for websites and mobile applications.
+                With his strong technical skills and design expertise, Alex is well-positioned to make a significant impact in the technology industry.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Designing Web/App Interfaces</li>
+                        <li><span>App Development</span><br>Designing Web/App Interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>UI/UX Design Training at Turing</li>
+                        <li><span>2021 - 2022</span><br>StarApp LLC Internship</li>
+                        <li><span>2020 - 2021</span><br>Coin Digital Ltd UI/UX Designer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>Riara University</li>
+                        <li><span>2017 - 2020</span><br>Alliance High School</li>
+                        <li><span>2016</span><br>Peponi School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> My Web design service is focused on delivering creative and functional websites that meet the unique needs of our clients.
+                    We understand that every business is different and requires a tailored approach to web design.
+                    That's why we work closely with our clients to ensure that we understand their business goals, target audience, and brand identity.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p> My App Design service is a comprehensive solution for businesses and entrepreneurs looking to develop and launch a mobile application.
+                    Our team of expert designers, developers, and project managers work closely with clients to understand their vision, goals, and target audience
+                    in order to create an app that is intuitive, user-friendly, and visually appealing.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>UI/UX Design</h2>
+                <p> Our UI/UX design service is focused on delivering visually appealing and user-friendly interfaces that enhance the user experience of your digital products.
+                    Our team of experienced designers works closely with you to understand your brand, target audience, and business goals in order to create designs that are not only aesthetically pleasing but also highly functional.</p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Discover new communities and connect with people from around the world on our social media app.
+                       Share experiences, photos, and thoughts with friends and family in a safe and fun environment.
+                       Join our vibrant community today and start exploring the world in a whole new way.</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Discover new communities and connect with people from around the world on our social media app.
+                       Share experiences, photos, and thoughts with friends and family in a safe and fun environment.
+                       Join our vibrant community today and start exploring the world in a whole new way.</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Discover new communities and connect with people from around the world on our social media app.
+                       Share experiences, photos, and thoughts with friends and family in a safe and fun environment.
+                       Join our vibrant community today and start exploring the world in a whole new way.</p>
+                       <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>alex.kiarie@riarauniversity.ac.ke</p>
+                <p><i class="fa-solid fa-phone"></i>+254113728101</p>
+                 <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                 </div>
+                 <a href="images/my-profile.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Alex.<i class="fa-solid fa-crown"></i> All rights reserved</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyH0a5UTj5mmHwMe5TsATCby7a5VW4ZBJvuwJtxh1WnZwLut-V2qUGexlXZNRqbQVk4yA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML =""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>  
+</body>
+</html>
